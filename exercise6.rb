@@ -18,3 +18,5 @@ else
 end
 
 puts "The second item on your grocery list is #{grocery_list[1]}"
+
+groceries(grocery_list.sort)
