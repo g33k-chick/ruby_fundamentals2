@@ -26,3 +26,10 @@ student_list(students)
 students.delete(:cohort2)
 
 student_list(students)
+
+total_students = 0
+students.each do |key, value|
+	total_students = total_students + value
+end
+
+puts "There is a total of #{total_students} students in the cohorts"
