@@ -1,4 +1,4 @@
-grocery_list = ["cereal", "carrots", "apples", "chicken"]
+grocery_list = ["cereal", "carrots", "apples", "salmon"]
 
 def groceries(array)
 	array.each do |variable|
@@ -18,5 +18,9 @@ else
 end
 
 puts "The second item on your grocery list is #{grocery_list[1]}"
+
+groceries(grocery_list.sort)
+
+grocery_list.delete("salmon")
 
 groceries(grocery_list.sort)
