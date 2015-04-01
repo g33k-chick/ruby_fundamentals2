@@ -8,3 +8,5 @@ end
 
 grocery_list.push("rice")
 groceries(grocery_list)
+
+puts "There are #{grocery_list.count} items in your grocery list"
